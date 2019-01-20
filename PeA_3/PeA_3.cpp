@@ -3,10 +3,13 @@
 
 #include "pch.h"
 #include <iostream>
+#include "Menu.h"
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	Menu *menu = new Menu();
+	menu->IAmTheProgram();
+	delete menu;
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
